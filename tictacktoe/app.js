@@ -74,8 +74,3 @@ const gameDraw = () => {
 }
 resetbtn.addEventListener("click", resetgame)
 new_buttn.addEventListener("click", resetgame)
-
-// humne pele winn patern ke array se pat nam ke variable se loop mai access kreke value nikali
-// jese ki index 0 mai pat hai 0,1,2 to pat[0] hoga 0 aise hi pat[1] mai 1 and pat[2] mai 2
-//or isse hum box array mai include krenge like let pos1val = boxes[pat[0]].innerText;
-//so wo hojayega boxes[0] yani btn one or uska innertext agar O hua or pos1,2,3 teeno equal hui to winner ajaeyga.
